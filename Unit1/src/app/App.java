@@ -2,30 +2,25 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int count = 0;
-        String color = "yellow";
-        boolean answer = true
-
-
-        while (count <= 15) {
-            System.out.println("The count is " + count);
-            count = count + 5;
+        for (int i = 10; i <= 20; i = i+1) {
+            System.out.println("The count is" +i);
+            System.out.println("Let's keep counting.");
         }
-
-        System.out.println("count finished");
-
-        while (color == "yellow"); {
-            System.out.println("The color is" + color);
-            color = "pink";
+        for (int i = 10; i <= 100; i = i+10) {
+            System.out.println("The count is" +i);
+            System.out.println("Let's keep counting.");
         }
-
-        System.out.println("color finished");
-
-        while (answer == true); {
-            System.out.println("Do we live in Minnesota?" + answer);
-            answer = false;
+        for (int i = 1000; i <= 256000; i = i+1000) {
+            System.out.println("The count is" +i);
+            System.out.println("Let's keep counting.");
         }
-
-        System.out.println("answer finished");
-     }
+        for (int i = 11; i <= 12; i = i+1) {
+            System.out.println("The count is" +i);
+            System.out.println("Let's keep counting.");
+        }
+        for (int i = 10; i >= 0; i = i-1) {
+            System.out.println("The count is" +i);
+            System.out.println("Let's keep counting.");
+        }
+    }
 }
