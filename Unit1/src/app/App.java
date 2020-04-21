@@ -3,14 +3,25 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int i = 0; i <= 20; i++) {
-            if (i % 4 == 0) {
-                System.out.println(i + " is divisible by 4");
-            } else {
-                System.out.println(i + " is not divisible by 4");
+        System.out.println("starting loop 1...");
+
+        for (int i = 0; i <= 19; i++) {
+            if (i % 1 == 0) {
+                System.out.println(i);
             }
         }
 
-        System.out.println("All finished");
+        System.out.println("end of loop 1.");
+
+        System.out.println("starting loop 2...");
+
+        for (int i = -1; i <= 19; i = i + 3) {
+            if (i % 1 == 0) {
+                System.out.println(i + 3);
+                System.out.println(i + 3);
+            }
+        }
+
+        System.out.println("end of loop 2.");
     }
 }
