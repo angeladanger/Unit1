@@ -28,7 +28,7 @@ public class App {
         System.out.println(dog2.name + " is of " + dog2.breed + " breed");
         System.out.println(dog2.name + " is " + dog2.age + " years old.");
 
-        System.out.println( );
+        System.out.println(  );
 
 
         dog3.name = "Cloudy";
@@ -39,6 +39,46 @@ public class App {
         System.out.println(dog3.name + " is of " + dog3.breed + " breed");
         System.out.println(dog3.name + " is " + dog3.age + " years old.");
 
+        System.out.println(  );
+        
+
+
+        Person person1 = new Person();
+        Person person2 = new Person();
+        Person person3 = new Person();
+
+        person1.name = "Sally";
+        person1.age = 23;
+        person1.heightInFeet = 6;
+        person1.eyeColor = "green";
+        person1.hairColor = "blonde";
+        person1.hobby = "playing sports";
+
+        System.out.println("This person is named " + person1.name + ", they are " + person1.age + " years old, they are " + person1.heightInFeet + " feet tall, they have " + person1.eyeColor + " eyes and " + person1.hairColor + " hair. Their hobby is " + person1.hobby + ".");
+
+        System.out.println(  );
+
+        person2.name = "Billy";
+        person2.age = 18;
+        person2.heightInFeet = 5;
+        person2.eyeColor = "brown";
+        person2.hairColor = "black";
+        person2.hobby = "playing instruments";
+
+        System.out.println("This person is named " + person2.name + ", they are " + person2.age + " years old, they are " + person2.heightInFeet + " feet tall, they have " + person2.eyeColor + " eyes and " + person2.hairColor + " hair. Their hobby is " + person2.hobby + ".");
+
+        System.out.println(  );
+
+        person3.name = "Bob";
+        person3.age = 26;
+        person3.heightInFeet = 6;
+        person3.eyeColor = "blue";
+        person3.hairColor = "brown";
+        person3.hobby = "building computers";
+
+        System.out.println("This person is named " + person3.name + ", they are " + person3.age + " years old, they are " + person3.heightInFeet + " feet tall, they have " + person3.eyeColor + " eyes and " + person3.hairColor + " hair. Their hobby is " + person3.hobby + ".");
+
+        System.out.println(  );
     
     }
 }
